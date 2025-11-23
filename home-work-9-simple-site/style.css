@@ -22,7 +22,7 @@
 }
 .navigation {
   padding-block: 79px;
-  letter-spacing: 10%;
+  letter-spacing: 2px;
 }
 .menu {
   display: flex;
@@ -76,7 +76,7 @@ section.about-me .container h2 {
 section.about-me .container .about-text {
   min-width: 540px;
   margin: 0 auto;
-  line-height: 168%;
+  line-height: 30px;
   color: #727272;
 }
 section.projects {
@@ -92,7 +92,7 @@ section.projects .my-projects li {
   list-style: none;
   width: 141px;
   height: 50px;
-  background-image: url("/img/project.svg");
+  background-image: url("img/project.svg");
   background-repeat: no-repeat;
   background-position: left center;
   padding-left: 70px;
@@ -114,7 +114,7 @@ section.how-i-work .container h2 {
 section.how-i-work .container .work-text {
   min-width: 540px;
   margin: 0 auto;
-  line-height: 164%;
+  line-height: 25px;
   color: #727272;
   padding-bottom: 57px;
 }
