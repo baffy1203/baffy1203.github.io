@@ -1,0 +1,14 @@
+.animated-ellipse {
+  animation: fillColor 2s infinite alternate,
+             borderColor 2s infinite alternate;
+}
+
+@keyframes fillColor {
+  0%   { fill: orange; }
+  100% { fill: rgb(201, 232, 242); }
+}
+
+@keyframes borderColor {
+  0%   { stroke: black; }
+  100% { stroke: purple; }
+}
